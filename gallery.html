@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--
+	GROUP 1
+	- MARGALLO, BRYAN
+	- LIAM, GARRO
+	- ABUACAN, ANDREI
+	- YUSON, ANDRES
+
+	(CREATED BY MARGALLO, BRYAN ) 
+	-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group <1> - Photo Gallery Page</title>
+    <link rel="stylesheet" href="gallerystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@600&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/83831b9b44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+             <a href="index.html"><img src="images/anony.gif"></a> 
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="form.html">FORM</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h3>Photo Gallery</h3>
+    </section>
+
+
+    <section>
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+
+    <div class="container">
+        <center><h1 style="color: red;">OUR PHOTO GALLERY</h1></center>
+        <div class="top-content">
+        <h3>Photo Gallery</h3>
+        <label for="check1">All Photos</label>
+        <label for="check2">Hacking Photos</label>
+        <label for="check3">Programming Photos</label>
+        <label for="check4">Security Photos</label>
+      </div>
+
+      <div class="photo-gallery">
+        <div class="pic place">
+             <img src="images/secu1.jpg">
+            </div>
+             <div class="pic family">
+                <img src="images/secu2.jpg">
+            </div>
+            <div class="pic child">
+                <img src="images/progra1.jpg">
+             </div>
+             <div class="pic place">
+                 <img src="images/progra2.jpg">
+                 </div>
+                 <div class="pic family">
+                     <img src="images/hack2.jpg">
+                     </div>
+                     <div class="pic child">
+                        <img src="images/hack4.jpg">
+                     </div> 
+                     <div class="pic place">
+                        <img src="images/sec3.jpg">
+                        </div>
+                        <div class="pic family">
+                            <img src="images/secu5.jpg">
+                            </div>
+                            <div class="pic child">
+                               <img src="images/prog3.jpg">
+                            </div> 
+                            <div class="pic place">
+                                <img src="images/prog5.jpg">
+                                </div>
+                                <div class="pic family">
+                                    <img src="images/hack6.jpg">
+                                    </div>
+                                    <div class="pic child">
+                                       <img src="images/hack8.jpg">
+                                    </div> 
+           </div>
+    </div>
+</section>
+   
+ 
+        <!--------footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Follow us in our media account! or you will be hacked!</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/ArellanoUniversityOfficial"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/Arellano_U?s=20&t=7YsHb9qFJdW_zYRiEVV9Ww"><i class="fa fa-twitter"></i></a>
+                <a href="https://goo.gl/maps/VE8oJrThCakcHjEr5"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made by Group 1 <a href="https://www.facebook.com/bryan.margallo.39" style="text-decoration: none; color: rgb(107, 107, 107);"><br> Bryan Margallo</a> <br> <a href="https://www.facebook.com/karvinandres.yuson.5" style="text-decoration: none; color: rgb(107, 107, 107);">Karvin Andres Yuson </a> <br> <a href="https://www.facebook.com/liam.garro.1" style="text-decoration: none; color: rgb(107, 107, 107);">Liam Garro</a> <br><a href="https://www.facebook.com/rymonandrei.abuacan.5" style="text-decoration: none; color: rgb(107, 107, 107);">Rymon Andrei Abuacan </a> <br>	<i class="fa fa-heart-o"></i>
+                <a href="https://www.youtube.com/@EasyTutorialsVideo" style="text-decoration: none; color: rgb(107, 107, 107);">Credits to EasyTutorials! Love You</a></p>
+            </section>
+
+
+
+
+    <!-----JavaScript for Toggle Menu---->
+
+    <script>
+
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+    </script>
+    
+
+</body>
+</html>
